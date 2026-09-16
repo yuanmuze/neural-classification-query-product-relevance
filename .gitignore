@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+tmp/
+report/
+data.zip
+data/*
+!data/README.md
+outputs/models/
+outputs/predictions/
+outputs/manifests/

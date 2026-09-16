@@ -1,0 +1,6 @@
+{
+  "train_validation_normalized_query_overlap": 0,
+  "dev_test_normalized_query_overlap_removed": 0,
+  "official_train_test_query_id_overlap": 1,
+  "product_overlap_train_test": 429
+}

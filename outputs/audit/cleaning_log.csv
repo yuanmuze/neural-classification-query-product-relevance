@@ -1,0 +1,7 @@
+rule,affected_count,action,reason,remaining_rows
+left_join_unmatched_products,0,drop,title unavailable for query-title classifier,1818825
+invalid_or_missing_label,0,drop,target outside E/S/C/I cannot be modeled,1818825
+missing_or_blank_query,0,drop,pair text required for current model,1818825
+missing_or_blank_product_title,0,drop,pair text required for current model,1818825
+fully_duplicate_records,0,drop,identical duplicate,1818825
+same_label_duplicate_pairs,0,drop,retain one repeated pair after conflicts removed,1818825

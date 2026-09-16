@@ -1,0 +1,20 @@
+seed: 42
+data_dir: data/raw
+output_dir: outputs
+labels: [E, S, C, I]
+smoke:
+  train_target_rows: 1200
+  test_target_rows: 600
+  max_features: 3000
+  svd_components: 32
+  batch_size: 128
+  epochs: 3
+  patience: 2
+assignment:
+  train_target_rows: 40000
+  test_target_rows: 12000
+  max_features: 25000
+  svd_components: 128
+  batch_size: 256
+  epochs: 20
+  patience: 3

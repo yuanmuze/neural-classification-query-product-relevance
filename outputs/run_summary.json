@@ -1,0 +1,30 @@
+{
+  "profile": "assignment",
+  "source_url": "https://github.com/amazon-science/esci-data",
+  "access_date": "2026-09-16",
+  "metrics": [
+    {
+      "model": "dummy",
+      "accuracy": 0.635478231915425,
+      "macro_f1": 0.19427902478749937,
+      "weighted_f1": 0.49384036468085246
+    },
+    {
+      "model": "logistic_regression",
+      "accuracy": 0.6384749854324482,
+      "macro_f1": 0.2573144438371593,
+      "weighted_f1": 0.5429890095549689
+    },
+    {
+      "model": "mlp",
+      "accuracy": 0.6340630983101639,
+      "macro_f1": 0.3155849161529021,
+      "weighted_f1": 0.5778030999643459
+    }
+  ],
+  "sizes": {
+    "train": 32115,
+    "validation": 7885,
+    "test": 12013
+  }
+}

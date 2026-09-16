@@ -1,0 +1,17 @@
+{
+  "train_validation_normalized_query_overlap": 0,
+  "dev_test_normalized_query_overlap_removed": 0,
+  "official_train_test_query_id_overlap": 1,
+  "product_overlap_train_test": 429,
+  "merge_preserved_after_cleaning": "validated many_to_one before unmatched removal",
+  "labels_valid": true,
+  "mlp_output_dimension": 4,
+  "preprocessing_fit_split": "train_only",
+  "saved_loaded_prediction_consistent": true,
+  "device": "cpu",
+  "sizes": {
+    "train": 32115,
+    "validation": 7885,
+    "test": 12013
+  }
+}
